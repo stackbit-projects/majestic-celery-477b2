@@ -7,7 +7,7 @@ export default class YouTubeCounterSection extends React.Component {
     render() {
         let section = _.get(this.props, 'section', null);
         return (
-            <section className="content__row bulletpoints__section" data-id={_.get(section, 'section_id', null)}>
+            <section className="content__row youtubecounter__section" data-id={_.get(section, 'section_id', null)}>
             {_.map(_.get(section, 'bulletpoints', null), (bulletpoint, bulletpoint_idx) => (
               <section key={bulletpoint_idx} className="content__row bulletpoint__section">
                 <Picture {...this.props} image={_.get(bulletpoint, 'image', null)} alt={_.get(bulletpoint, 'title', null)} cssClass={'bulletpoint__section-image'} />
