@@ -9,7 +9,9 @@ export default class YouTubeCounterSection extends React.Component {
         return (
             <section className="content__row youtubecounter__section" data-id={_.get(section, 'section_id', null)}>
                 <div>
-                    
+                    <h1>
+                        
+                    </h1>
                 </div>
             </section>
         );
