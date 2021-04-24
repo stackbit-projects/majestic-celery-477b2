@@ -3,7 +3,7 @@ import _ from 'lodash';
 
 import {toStyleObj, withPrefix, markdownify, Link, classNames} from '../utils';
 
-export default class HeroSection extends React.Component {
+export default class YouTubeCounterSection extends React.Component {
     render() {
         let section = _.get(this.props, 'section', null);
         let bg_img_opacity_pct = _.get(section, 'background_image_opacity', null) || 100;
